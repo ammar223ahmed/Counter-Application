@@ -1,0 +1,61 @@
+body{
+    background-image: url(images/bg-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-heading{
+    color: white;
+    text-shadow:  2px -2px 5px rgb(166, 162, 162),
+    2px 2px 6px whitesmoke;
+    font-size: 2.5em;
+    word-spacing: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.box2{
+    background-color: rgba(21, 14, 235, 0.6);
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1.5em;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* margin: 10px auto; */
+    padding-top: 1.4em;
+    font-weight: bold;
+    
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.heading-two{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px 5px whitesmoke;
+    background-color: black;
+}
+.box{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1.5em;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    /* margin: 10px auto; */
+    padding-top: 1.4em;
+    font-weight: bold;
+    box-shadow: inset 2px 3px 5px whitesmoke,
+    inset -3px -3px 5px white;
+    font-size: 1.5em;
+
+}
+
+.btn button{
+    background-color: rgb(18, 8, 216);
+    border-color: blue;
+    border-radius: 15px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Applicaton</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+     <br>
+        <h1 style="text-align: center;" class="top-heading">Counter Application</h1>
+        <br>
+        <div class="parent" style="display: flex; justify-content: center; text-align: center; font-size: 2em; gap: 2em;">
+           <!-- <div  class="box" style=" border: 2px solid black; padding: 30px; border-radius: 5px; padding-top: 2em;cursor: pointer;background-color:black; color: whitesmoke;"><button onclick= "munies()"></button></div>  -->
+           <div onclick="munies()"  class="box2">-</div> 
+          <div class="box" id="OnScreen" style="border: 2px solid black; padding: 2em; background-color:black; color: whitesmoke;">0</div>
+           <div onclick="plus()" class="box2">+</div>
+        </div>
+        <br><br>
+        <h3 class="heading-two" id="even_odd" style="text-align: center;">This Number is Even / Odd</h3>
+        <br>
+        <div class="btn" style="text-align: center;">
+        <button onclick="reset()" style=" color: whitesmoke; padding: 5px 10px; font-size: 1.5em; cursor: pointer;">Reset</button>
+    </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
